@@ -2,7 +2,8 @@ body{
     margin: 0%;
     padding: 0%;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: rgba(128, 128, 128, 0.232);
+    /* background-color: rgba(128, 128, 128, 0.232); */
+    background-color: #DAEAF1;
     /* font-family: 'Open Sans', sans-serif; */
 }
 
@@ -14,8 +15,8 @@ body{
     z-index: 100;
     /* border: 2px solid #000; */
     /* background-color: #F7F7F7; */
-    background-color: #fc950fd5;
-    background-color: #84878dd0;
+    background-color: #372948;
+    /* background-color: #84878dd0; */
 }
 
 .logo{
@@ -43,7 +44,8 @@ body{
 }
 #sidebarMenu .menu li a{
     font-size: 1.3rem;
-    color: black;
+    /* color: black; */
+    color: #FFFFFF;
     font-weight: 600;
     text-decoration: none;
 }
@@ -63,6 +65,7 @@ svg{
     position: absolute;
     top: auto;
     bottom: 0%;
+    /* background-color: #6c63ff; */
 }
 
 #banner{
@@ -73,7 +76,8 @@ svg{
     /* height: 475px; */
     /* border: 1px solid #000;  */
     box-shadow: 10px 10px 10px gray;
-    background-color: #0e5c55;
+    /* background-color: #0e5c55; */
+    background-color:#AEBDCA;
     position: relative;
     overflow: hidden;
     /* z-index: -1; */
@@ -180,10 +184,11 @@ svg{
 }
 
 .wave {
-    position: absolute;
+    position: fixed;
     left: 0;
     width: 200%;
     height: 100%;
+    /* border: 1px solid #000; */
     background-repeat: repeat no-repeat;
     background-position: 0 bottom;
     transform-origin: center bottom;
@@ -191,6 +196,7 @@ svg{
 
 .waveTop {
     background-size: 50% 100px;
+    border: 1px solid red;
 }
 
 .waveAnimation .waveTop {
@@ -198,6 +204,7 @@ svg{
     -webkit-animation: move-wave 3s;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
+    border: 1px solid yellow;
 }
 
 .waveMiddle {
@@ -223,7 +230,6 @@ svg{
 .left-side{
     width: 50%;
     height: 473px;
-    /* border: 2px solid #000; */
 }
 .left-side p{
     margin-top: 60px;
@@ -285,7 +291,7 @@ svg{
     z-index: 20;
 }
 .auto-type{
-    color: crimson;
+    color: #B73E3E;
 }
 .head-dev{
     width: 100%;
@@ -296,7 +302,7 @@ svg{
     font-weight: bolder;
 }
 .head-dev h1{
-    color: crimson;
+    color: #DD5353;
     /* font-family: 'Teko', sans-serif; */
 }
 
@@ -308,6 +314,7 @@ svg{
     /* border: 2px solid #000; */
     box-shadow: 5px 15px 15px grey;
     background-color: #FFFFFF;
+    /* background-color: #2B4865; */
     position: relative;
     /* animation: banner 2s ease-in-out 0s 1 alternate none; */
 }
@@ -664,7 +671,8 @@ textarea{
 #footer{
     width: 100%;
     height: 80px;
-    background-color: #FBF3E4;
+    /* background-color: #FBF3E4; */
+    background-color: #372948;
     font-size: 1.7rem;
     line-height: 80px;
     text-align: center;
