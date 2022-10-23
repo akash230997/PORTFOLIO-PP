@@ -285,7 +285,7 @@ svg{
     z-index: 20;
 }
 .auto-type{
-    color: #FCA738;
+    color: crimson;
 }
 .head-dev{
     width: 100%;
@@ -294,6 +294,10 @@ svg{
     color: #FCA738;
     font-size: 1.5rem;
     font-weight: bolder;
+}
+.head-dev h1{
+    color: crimson;
+    /* font-family: 'Teko', sans-serif; */
 }
 
 #about-Me{
