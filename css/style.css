@@ -787,6 +787,9 @@ textarea{
     .right-side {
         margin-right: 200px;
     }
+    .head-dev{
+        margin: 0px 10px;
+    }
 
     .responsivebtn{
         margin-top:10px;
@@ -1027,6 +1030,12 @@ svg{
     left: 200px;
     /* border: 1px solid #000; */
 }
+
+.head-dev {
+    width: 95%;
+    margin: 0px 10px;
+}
+
 #banner{
     height: 900px;
 }
@@ -1163,7 +1172,7 @@ label{
 }
 }
 
-@media only screen and (min-width:350px) and (max-width:599px) {
+@media only screen and (min-width:300px) and (max-width:599px) {
     .nav {
         /* border: 1px solid #000; */
         width: 100%;
@@ -1174,6 +1183,10 @@ label{
         /* margin-right: 100px; */
         /* margin-left: 100px; */
     }
+    .head-dev {
+    width: 85%;
+    margin: 0px 10px;
+}
     svg{
         top: auto;
         bottom: 0%;
